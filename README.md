@@ -5,17 +5,16 @@ This sketch uses Adafruit M4/M0, but it should be adaptable to any uC. The ADS11
 
 Make sure to update the unique calibraton constants for your sensor. See below for wiring colors - 
 
-![image](https://user-images.githubusercontent.com/74724400/118510996-7de4e280-b6ff-11eb-80d4-4860545fa8d6.png)
-
-![image](https://user-images.githubusercontent.com/74724400/118511122-9bb24780-b6ff-11eb-9164-13e715623904.png)
 
 ADC:
 https://www.adafruit.com/product/1085
 
 Pyranometer:
+![image](https://user-images.githubusercontent.com/74724400/118510996-7de4e280-b6ff-11eb-80d4-4860545fa8d6.png)
 https://www.apogeeinstruments.com/sp-510-ss-upward-looking-thermopile-pyranometer/
 https://www.apogeeinstruments.com/content/SP-510-610-manual.pdf
 
 Pyrgeometer:
+![image](https://user-images.githubusercontent.com/74724400/118511122-9bb24780-b6ff-11eb-9164-13e715623904.png)
 https://www.apogeeinstruments.com/sl-510-ss-pyrgeometer-upward-looking/
 https://www.apogeeinstruments.com/content/SL-510-610-manual.pdf
