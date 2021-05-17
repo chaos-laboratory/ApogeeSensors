@@ -3,7 +3,7 @@
 
 This sketch uses Adafruit M4/M0, but it should be adaptable to any uC. The ADS1115 16-bit I2C differential ADC is used to read the differential channels of the pyranometer and pyrgeometer. The ADS1115 can be pwoered with either 5v or 3.3v, as long as the sensors to don't produce voltage higher than this. Despite the slightly misleading info on the adafruit page, the differential readings CAN be negative. To read both sensors, a third analog channel for reading the thermistor is required - but due to the much larger signal, a normal analog input is fine for this. The high side of the thermistor can be connected to 3.3v or 5v, though 3.3v is preferable.
 
-Make sure to update the unique calibraton constants for your sensor. See below for wiring colors - 
+Make sure to update the unique calibraton constants for your sensor. See below for wiring colors -  Each thermopile device requires two (2) ADC inputs for a differential reading, and then the pyrgeometer requires an additional single-ended input for the thermistor reading (required for measurements).
 
 
 ADC, ADS1115:
